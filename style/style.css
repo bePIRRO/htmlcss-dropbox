@@ -15,8 +15,12 @@
 /* utlis */
 body {
     font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
     font-weight: 600;
-    font-size: 18px;
+}
+
+a {
+    color: #000;
 }
 
 .container {
@@ -28,33 +32,57 @@ body {
     float: left;
 }
 
-.main-menu li {
-    list-style-type: none;
-    display: inline-block;
-}
-
 .btn{
-
+    text-decoration: none;
+    transition: 0.5s;
 }
 
+.btnblu {
+    background-color: #0061ff;
+    color: #fff;
+}
+
+.btnsmall {
+    padding: 20px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.w-50 {
+    width: 50%;
+}
 
 /* header */
 .main-menu {
     height: 80px;
     line-height: 80px;
     background-color: #fff;
+    font-weight: 800;
 }
 
 #logo {
-    /* vertical-align: middle; */
-    /* padding-left: 20px; */
+    vertical-align: middle;
     position: relative;
+    bottom: 3px;
+    margin-left: 30px;
+}
+
+.main-menu li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 30px;
 }
 
 .main-menu a {
-    color: #000;
     text-decoration: none;
-    padding: 0 30px;
+}
+
+.main-menu li:hover {
+    border-bottom: 2px solid;
+    border-color: #0061ff;
+
 }
 
 .main-menu li {
