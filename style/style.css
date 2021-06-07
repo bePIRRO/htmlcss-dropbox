@@ -51,9 +51,18 @@ a {
     text-align: right;
 }
 
+.w-40 {
+    width: 40%;
+}
+
 .w-50 {
     width: 50%;
 }
+
+.w-60 {
+    width: 60%;
+}
+
 
 /* header */
 .main-menu {
@@ -61,7 +70,6 @@ a {
     line-height: 80px;
     background-color: #fff;
     font-weight: 800;
-    position: fixed;
     width: 100%;
 }
 
@@ -88,16 +96,13 @@ a {
     border-bottom
 }
 
-.main-menu li {
-
+.intro {
+    background-color: #b4d0e7;
+    height: 745px;
 }
 
-
-
-
-
-
-.mainbody {
-    height: 600px;
-    background-color: #dedede;
+h1 {
+    font-size: 72px;
+    font-weight: 900;
+    padding-top: 50px;
 }
