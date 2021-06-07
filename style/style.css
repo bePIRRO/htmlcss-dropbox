@@ -47,6 +47,10 @@ a {
     margin-right: 30px;
 }
 
+.btnbig {
+    padding: 10px 30px;
+}
+
 .text-right {
     text-align: right;
 }
@@ -61,6 +65,10 @@ a {
 
 .w-70 {
     width: 70%;
+}
+
+p {
+    margin-bottom: 40px;
 }
 
 
@@ -98,7 +106,7 @@ a {
 
 .jumbo {
     background-color: #b4d0e7;
-    height: 800px;
+    height: 820px;
 }
 
 h1 {
@@ -118,4 +126,12 @@ h1 {
 .col.w-30 {
     padding-right: 60px;
     line-height: 1.5em;
+}
+
+#undo {
+    margin-top: 30px;
+}
+
+.fa-arrow-down {
+    font-size: 50px;
 }
