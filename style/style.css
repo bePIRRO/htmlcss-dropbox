@@ -43,7 +43,8 @@ a {
 }
 
 .btnsmall {
-    padding: 20px;
+    padding: 5px 20px;
+    margin-right: 30px;
 }
 
 .text-right {
@@ -60,6 +61,8 @@ a {
     line-height: 80px;
     background-color: #fff;
     font-weight: 800;
+    position: fixed;
+    width: 100%;
 }
 
 #logo {
@@ -82,7 +85,7 @@ a {
 .main-menu li:hover {
     border-bottom: 2px solid;
     border-color: #0061ff;
-
+    border-bottom
 }
 
 .main-menu li {
