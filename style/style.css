@@ -24,7 +24,7 @@ a {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
@@ -51,16 +51,16 @@ a {
     text-align: right;
 }
 
-.w-40 {
-    width: 40%;
+.w-30 {
+    width: 30%;
 }
 
 .w-50 {
     width: 50%;
 }
 
-.w-60 {
-    width: 60%;
+.w-70 {
+    width: 70%;
 }
 
 
@@ -96,13 +96,26 @@ a {
     border-bottom
 }
 
-.intro {
+.jumbo {
     background-color: #b4d0e7;
-    height: 745px;
+    height: 800px;
 }
 
 h1 {
-    font-size: 72px;
+    font-size: 90px;
     font-weight: 900;
     padding-top: 50px;
+}
+
+#jumboimg {
+    width: 1000px;
+}
+
+.mainjumbo {
+    margin-top: 50px;
+}
+
+.col.w-30 {
+    padding-right: 60px;
+    line-height: 1.5em;
 }
