@@ -11,7 +11,62 @@
     clear: both;
 }
 
+
 /* utlis */
 body {
     font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.col {
+    float: left;
+}
+
+.main-menu li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.btn{
+
+}
+
+
+/* header */
+.main-menu {
+    height: 80px;
+    line-height: 80px;
+    background-color: #fff;
+}
+
+#logo {
+    /* vertical-align: middle; */
+    /* padding-left: 20px; */
+    position: relative;
+}
+
+.main-menu a {
+    color: #000;
+    text-decoration: none;
+    padding: 0 30px;
+}
+
+.main-menu li {
+
+}
+
+
+
+
+
+
+.mainbody {
+    height: 600px;
+    background-color: #dedede;
 }
