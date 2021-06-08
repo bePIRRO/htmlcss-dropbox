@@ -73,7 +73,7 @@ a {
 }
 
 .w-33 {
-    width: calc(100% / 3);
+    width: calc(33% - 30px);
 }
 
 .w-50 {
@@ -204,7 +204,7 @@ h1 {
 .plan {
     margin-top: 50px;
     padding-bottom: 250px;
-    margin: 0 30px;
+    /* margin: 0 30px; */
 }
 
 .plans h2 {
@@ -232,17 +232,23 @@ h1 {
     border: 1px solid #d0d0d3;
 }
 
-.plan, .headplan {
+.plan {
     border: 1px solid #d0d0d3;
 }
 
 .headplan {
     padding: 10px 0;
+    border-bottom: 1px solid #d0d0d3;
 }
 
 .bodyplan {
     padding: 30px;
     line-height: 1.6em;
+}
+
+#col2 {
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 /******* plan list *******/
@@ -280,3 +286,4 @@ li.list-icon {
 .mainbody {
     height: 5000px;
 }
+
