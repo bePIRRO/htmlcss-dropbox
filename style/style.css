@@ -203,8 +203,7 @@ h1 {
 
 .plan {
     margin-top: 50px;
-    padding-bottom: 250px;
-    /* margin: 0 30px; */
+    height: 1150px;
 }
 
 .plans h2 {
