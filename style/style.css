@@ -60,6 +60,10 @@ a {
     text-align: right;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .w-30 {
     width: 30%;
 }
@@ -80,10 +84,21 @@ p {
     margin-bottom: 40px;
 }
 
+.h3 {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.h4 {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.text-grey {
+    color: #667683;
+}
 
 /* header */
-
-
 
 .main-menu {
     height: 80px;
@@ -132,8 +147,8 @@ p {
 }
 
 h1 {
-    font-size: 90px;
-    font-weight: 900;
+    font-size: 80px;
+    font-weight: 800;
     padding-top: 50px;
 }
 
@@ -175,8 +190,6 @@ h1 {
     height: 200px;
 }
 
-
-
 .radio {
     border-radius: 50%;
     padding: 10px;
@@ -191,4 +204,49 @@ h1 {
 
 .radiouncheck {
     border: 1px solid #d0d0d3;
+}
+
+.plan, .headplan {
+    border: 1px solid #d0d0d3;
+}
+
+.bodyplan {
+    padding-left: 30px;
+}
+
+/******* plan list *******/
+
+li.list-icon {
+    list-style-type: none ;
+    margin-bottom: 20px;
+    text-indent: -1.5em;
+    padding-left: 30px;
+}
+
+.list-icon::before {
+	font-family: "font awesome 5 free";
+	font-weight: 900;
+	margin-right: 5px;
+}
+
+.list-icon.folder::before {
+	content: '\f07b';
+}
+
+.list-icon.user::before {
+	content: '\f007';
+}
+
+.list-icon.pencil::before {
+	content: '\f303';
+}
+
+.list-icon.checked::before {
+	content: '\f00c';
+    color: #0061ff;
+}
+
+
+.mainbody {
+    height: 500px;
 }
