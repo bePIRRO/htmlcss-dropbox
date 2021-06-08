@@ -57,7 +57,7 @@ a {
 }
 
 .btnbigger {
-    padding: 10px 64px;
+    padding: 10px 30px;
 }
 
 .text-right {
@@ -91,11 +91,13 @@ p {
 h3 {
     font-size: 28px;
     font-weight: 800;
+    margin-bottom: 30px;
 }
 
 h4 {
     font-size: 22px;
     font-weight: 800;
+    margin-bottom: 20px;
 }
 
 .text-grey {
@@ -199,6 +201,12 @@ h1 {
     margin-top: 200px;
 }
 
+.plan {
+    margin-top: 50px;
+    padding-bottom: 250px;
+    margin: 0 30px;
+}
+
 .plans h2 {
     font-size: 46px;
     font-weight: 900;
@@ -269,7 +277,6 @@ li.list-icon {
     color: #0061ff;
 }
 
-
 .mainbody {
-    height: 500px;
+    height: 5000px;
 }
