@@ -15,6 +15,10 @@ img:not(#logo) {
     width: 100%;
 }
 
+span {
+    text-decoration: underline;
+}
+
 /* utlis */
 body {
     font-family: 'Open Sans', sans-serif;
@@ -261,7 +265,7 @@ h1 {
     line-height: 1.6em;
 }
 
-#col2 {
+.midcol {
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -318,4 +322,16 @@ li.list-icon {
 .w-40 div {
     margin-top: 50px;
     margin-left: 50px;
+}
+
+.business {
+    margin-bottom: 100px;
+}
+
+.business p {
+    font-size: 18px;
+}
+
+.test {
+    padding-top: 50px;
 }
