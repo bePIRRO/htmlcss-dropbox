@@ -148,6 +148,7 @@ h4 {
     font-weight: 800;
     width: 100%;
     position: fixed;
+    box-shadow: 0px 0px 2px #0061ff;
 }
 
 /* .main-menu,
@@ -228,7 +229,7 @@ h1 {
 
 .plans h2 {
     font-size: 46px;
-    font-weight: 900;
+    font-weight: 800;
     margin: 60px 0;
 }
 
@@ -283,6 +284,31 @@ h1 {
     padding-top: 30px;
 }
 
+.w-40 div {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.business {
+    margin-bottom: 100px;
+}
+
+.business p {
+    font-size: 18px;
+}
+
+.partners h2 {
+    font-size: 46px;
+    font-weight: 800;
+    margin-top: 230px;
+    margin-bottom: 30px;
+}
+
+.partners {
+    margin-bottom: 70px;
+}
+
+
 /******* plan list *******/
 
 li.list-icon {
@@ -315,23 +341,32 @@ li.list-icon {
     color: #0061ff;
 }
 
+/* *************************************** */
+.test {
+    padding-top: 50px;
+    
+}
+
+/********************************* delete******************************** */
 .mainbody {
     height: 5000px;
 }
+/* ********************************************************************** */
 
-.w-40 div {
-    margin-top: 50px;
-    margin-left: 50px;
+
+
+/* partners */
+
+.buddy {
+    width: 242px;
+    height: 242px;
 }
 
-.business {
-    margin-bottom: 100px;
+#design {
+    background-color: #a2d39b;
+    
 }
 
-.business p {
-    font-size: 18px;
-}
 
-.test {
-    padding-top: 50px;
-}
+
+
