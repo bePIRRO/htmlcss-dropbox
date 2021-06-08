@@ -490,3 +490,12 @@ li.list-icon {
     transform: translateX(-50%);
 }
 
+.buddy:hover {
+    border: 10px solid;
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+#designit:hover {
+    border: 10px solid;
+    border-color: rgba(0, 0, 0, 0.3);
+}
