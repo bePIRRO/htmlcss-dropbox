@@ -28,6 +28,11 @@ a {
     margin: 0 auto;
 }
 
+.containersmall {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .col {
     float: left;
 }
@@ -57,6 +62,10 @@ a {
 
 .w-30 {
     width: 30%;
+}
+
+.w-33 {
+    width: calc(100% / 3);
 }
 
 .w-50 {
@@ -111,7 +120,7 @@ p {
 }
 
 .main-menu li:hover {
-    /* border-bottom: 5px solid #0061ff; */
+    /* border-bottom: 2px solid #0061ff; */
     box-shadow: #0061ff 0px 0px 2px;
 
 }
@@ -149,7 +158,37 @@ h1 {
     font-size: 50px;
 }
 
+
+/* main */
+
+.plans {
+    margin-top: 200px;
+}
+
+.plans h2 {
+    font-size: 46px;
+    font-weight: 900;
+    margin: 60px 0;
+}
+
 .mainbody {
-    height: 500px;
-    background-color: #dedede;
+    height: 200px;
+}
+
+
+
+.radio {
+    border-radius: 50%;
+    padding: 10px;
+    display: inline-block;
+}
+
+
+.radiocheck{
+    border: 5px solid #0061ff;
+    padding: 6px;
+}
+
+.radiouncheck {
+    border: 1px solid #d0d0d3;
 }
