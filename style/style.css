@@ -57,6 +57,7 @@ a {
 .btnwhite {
     color: #000;
     border: 1px solid #000;
+    background-color: #fff;
 }
 
 .btnsmall {
@@ -114,6 +115,15 @@ a {
 
 p {
     margin-bottom: 40px;
+}
+h1 {
+    font-size: 80px;
+    font-weight: 800;
+    padding-top: 50px;
+}
+
+h2{
+    font-size: 46px;
 }
 
 h3 {
@@ -195,12 +205,6 @@ h4 {
     background-color: #b4d0e7;
     height: 900px;
     padding-top: 100px
-}
-
-h1 {
-    font-size: 80px;
-    font-weight: 800;
-    padding-top: 50px;
 }
 
 #jumboimg {
@@ -498,4 +502,12 @@ li.list-icon {
 #designit:hover {
     border: 10px solid;
     border-color: rgba(0, 0, 0, 0.3);
+}
+
+/* banner business */
+
+.bannerbusiness {
+    background-color: #b4d0e7;
+    color: #61082b;
+    padding: 200px 0;
 }
