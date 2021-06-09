@@ -73,6 +73,27 @@ a {
     padding: 10px 55px;
 }
 
+.radio {
+    border-radius: 50%;
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.radiocheck{
+    border: 5px solid #0061ff;
+    padding: 6px;
+}
+
+.radiouncheck {
+    border: 1px solid #d0d0d3;
+}
+
+.radiouncheck:active {
+    border: 5px solid #0061ff;
+    padding: 6px;
+}
+
 .text-right {
     text-align: right;
 }
@@ -252,21 +273,6 @@ hr {
 
 .mainbody {
     height: 200px;
-}
-
-.radio {
-    border-radius: 50%;
-    padding: 10px;
-    display: inline-block;
-}
-
-.radiocheck{
-    border: 5px solid #0061ff;
-    padding: 6px;
-}
-
-.radiouncheck {
-    border: 1px solid #d0d0d3;
 }
 
 .plan {
@@ -501,6 +507,7 @@ li.list-icon {
 .buddy:hover {
     border: 10px solid;
     border-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
 }
 
 #designit:hover {
