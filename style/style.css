@@ -161,7 +161,7 @@ hr {
 
 .short {
     border-color: #d0d0d3;
-    width: 20%;
+    width: 10%;
     margin: 40px 0;
 }
 
@@ -287,6 +287,10 @@ hr {
     line-height: 1.6em;
 }
 
+.bodyplan hr.short {
+    width: 18%;
+}
+
 .midcol {
     margin-left: 50px;
     margin-right: 50px;
@@ -367,12 +371,6 @@ li.list-icon {
     padding-top: 50px;
     
 }
-
-/********************************* delete******************************** */
-.mainbody {
-    height: 5000px;
-}
-/* ********************************************************************** */
 
 
 
@@ -540,7 +538,37 @@ li.list-icon {
     content: "\f078" ;
 }
 
+.faqs {
+    margin-bottom: 130px;
+}
 .faqs h3{
     margin-top: 100px;
     margin-bottom: 70px;
+}
+
+
+/* footer */
+
+footer {
+    height: 500px;
+    background-color: #000;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer li {
+    list-style-type: none;
+    line-height: 2em;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.language {
+    color: #999999;
 }
