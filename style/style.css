@@ -550,9 +550,10 @@ li.list-icon {
 /* footer */
 
 footer {
-    height: 500px;
     background-color: #000;
     color: #fff;
+    padding-top: 130px;
+    padding-bottom: 50px;
 }
 
 footer a {
