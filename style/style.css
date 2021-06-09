@@ -234,6 +234,7 @@ hr {
 
 .fa-arrow-down {
     font-size: 50px;
+    cursor: pointer;
 }
 
 
@@ -535,6 +536,7 @@ li.list-icon {
     position: absolute;
     right: 0;
     content: "\f078" ;
+    cursor: pointer;
 }
 
 .faqs {
@@ -571,4 +573,8 @@ footer a:hover {
 
 .language {
     color: #999999;
+}
+
+.fa-caret-up:hover {
+    cursor: pointer;
 }
