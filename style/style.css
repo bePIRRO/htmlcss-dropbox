@@ -427,11 +427,9 @@ li.list-icon {
 #designit {
     background-color: #f5f5f5;
     padding: 60px;
+    padding-top: 100px;
 }
 
-#designit img {
-    width: 30%;
-}
 
 #wbr{
     background-color: #d5001f;
@@ -449,10 +447,23 @@ li.list-icon {
     background-color: #ffd830;
 }
 
+#designit img {
+    width: 30%;
+}
+
+#designit hr {
+    margin: 50px 0;
+}
+
+#designit p {
+    font-size: 18px;
+    font-weight: 600;
+}
 
 #designit:hover {
     border: 10px solid;
     border-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
 }
 
 /* banner business */
