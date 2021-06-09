@@ -418,6 +418,10 @@ li.list-icon {
     cursor: pointer;
 }
 
+.imgbox:active {
+    border: 0px;
+}
+
 #design {
     background-color: #a2d39b;
 }
