@@ -151,6 +151,14 @@ h4 {
     margin-top: 50px;
 }
 
+hr {
+    border: 0.5px solid;
+}
+
+.grey {
+    border-color: #dcdcde;
+}
+
 .short {
     border-color: #d0d0d3;
     width: 20%;
@@ -370,17 +378,20 @@ li.list-icon {
 
 /* partners */
 
-.partners {
-    height: 500px;
+.buddy img {
+    filter: invert(1);
 }
 
 .buddy {
     height: 250px;
 }
 
+
 #design {
     background-color: #a2d39b;
+    position: relative;
 }
+
 
 #design img {
     width: 60%;
@@ -510,4 +521,26 @@ li.list-icon {
     background-color: #b4d0e7;
     color: #61082b;
     padding: 200px 0;
+}
+
+
+/* FAQ */
+
+.faq {
+    margin: 40px 0;
+    margin-right: 30px;
+    position: relative;
+    font-weight: 800;
+}
+
+.faq::after {
+    font-family: "font awesome 5 free";
+    position: absolute;
+    right: 0;
+    content: "\f078" ;
+}
+
+.faqs h3{
+    margin-top: 100px;
+    margin-bottom: 70px;
 }
