@@ -55,10 +55,20 @@ a {
     color: #fff;
 }
 
+.btnblu:hover {
+    box-shadow: 0px 0px 5px #0061ff;
+    filter: saturate(3);
+}
+
 .btnwhite {
     color: #000;
     border: 1px solid #000;
     background-color: #fff;
+}
+
+.btnwhite:hover {
+    box-shadow: 0px 0px 3px #000;
+    color: #0061ff;
 }
 
 .btnsmall {
